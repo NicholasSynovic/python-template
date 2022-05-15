@@ -1,0 +1,14 @@
+{
+    "extensions": [
+        "ms-python.python",
+        "njpwerner.autodocstring",
+        "yzhang.markdown-all-in-one",
+        "DavidAnson.vscode-markdownlint",
+    ],
+    "settings": {
+        "autoDocstring.docstringFormat": "sphinx",
+        "autoDocstring.includeExtendedSummary": true,
+        "autoDocstring.includeName": true,
+        "autoDocstring.startOnNewLine": true,
+    }
+}
