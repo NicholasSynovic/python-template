@@ -1,2 +1,3 @@
-import python_template
 import unittest
+
+import python_template
