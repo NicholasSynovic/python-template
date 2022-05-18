@@ -2,7 +2,14 @@
 name = "python-template"
 version = "0.0.1"
 description = ""
+license = ""
 authors = ["Nicholas M. Synovic <nicholas.synovic@gmail.com>"]
+maintainers = ["Nicholas M. Synovic <nicholas.synovic@gmail.com>"]
+readme = "README.md"
+homepage = ""
+documentation = ""
+keywords = ""
+classifiers = []
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -16,6 +23,11 @@ bandit = "^1.7.4"
 black = "^22.3.0"
 isort = "^5.10.1"
 autoflake = "^1.4"
+
+[tool.poetry.scripts]
+
+[tool.poetry.urls]
+"Bug Tracker" = ""
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
